@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "Eigen/Dense"
 
 
@@ -37,7 +36,4 @@ private:
     
     /// Matrix that describes the prediction covariance
     MatrixXd Q = MatrixXd(2, 2);
-    
-    /// Matrix that describes the Kalman gain
-    MatrixXd K;
 };      

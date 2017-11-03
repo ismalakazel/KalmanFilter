@@ -8,6 +8,7 @@ using namespace Eigen;
 
 /// A state predictable object
 struct Car {
+    
 public:
     
     /// State vector
